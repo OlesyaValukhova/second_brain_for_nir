@@ -1,89 +1,710 @@
 {
-	"nodes":[
-		{"id":"problem","type":"text","text":"# Проблема\nДоступ к организованным занятиям может зависеть от автомобиля и возможности сопровождения.\n\nЭто вопрос для исследования, а не доказанный факт о Петербурге.","x":-1660,"y":-160,"width":420,"height":210,"color":"4"},
-		{"id":"why-heading","type":"text","text":"# Почему автомобильное сопровождение может быть проблемой?\nЧетыре направления обоснования, а не четыре доказанных негативных эффекта.","x":-1660,"y":730,"width":490,"height":170,"color":"4"},
-		{"id":"origin","type":"text","text":"**Исходная мотивация исследовательницы**\nНовость: некоторые родители Петербурга якобы тратят до 10 часов в неделю на подвоз детей. Первоначальная новость и метод опроса не найдены — число нельзя использовать как установленный факт.\n\nИнтерес: роль устройства города и возраста ребёнка в нагрузке семьи.","x":-2180,"y":500,"width":450,"height":260,"color":"3"},
-		{"id":"lclaim","type":"text","text":"**Lagrell & Kent, 2026**\n21 эмпирическая работа; в 7 есть данные о виде поездок.\n\nЗависимость от автомобиля встречается в разных контекстах и нередко выше, чем в школьных поездках.","x":-2180,"y":-600,"width":380,"height":210,"color":"2"},
-		{"id":"norway","type":"text","text":"**Hjorthol & Fyhri, 2009 — Норвегия**\nУ обследованных детей автомобильная доля поездок на организованный досуг выше школьной. Связана с расстоянием, возрастом и привычками родителей.","x":-2180,"y":-345,"width":380,"height":190,"color":"2"},
-		{"id":"finland","type":"text","text":"**Berg et al., 2023 — Финляндия, COVID-19**\nПоездки на занятия были наиболее дальними и обычно зависели от автомобиля родителя.\n\nПандемийный контекст и выборка не позволяют обобщать результат.","x":-2180,"y":-110,"width":380,"height":210,"color":"2"},
-		{"id":"japan","type":"text","text":"**Kojima, 2022 — Япония**\nСамостоятельность ребёнка зависит от цели поездки.\n\nНельзя утверждать: «на занятия ребёнка обязательно везут автомобилем».","x":-2180,"y":145,"width":380,"height":180,"color":"3"},
-		{"id":"alternatives","type":"text","text":"# Возможные альтернативы автомобилю\n**Lunke & Nordbakke, 2024:** родители называют организованный автобус; для местных футбола и гандбола — попутки и совместные пешие/велопоездки; для лыж и коньков — хранение инвентаря.\n\nЭто ожидания родителей, не измеренный эффект вмешательств.","x":1120,"y":-610,"width":440,"height":270,"color":"4"},
-		{"id":"location","type":"text","text":"**Размещение и расстояние**\nBunds et al.: назначение на ближайшую площадку в одном модельном кейсе дало −12% выбросов.\n\nSteinmayr et al.: удалённость связана с участием в малых городах и селе, но не в крупных городах.","x":1120,"y":-260,"width":440,"height":230,"color":"2"},
-		{"id":"conditions","type":"text","text":"**Условия альтернативной поездки**\nPalm & Farber; Grow et al.: транспортная доступность, воспринимаемая безопасность и пешеходная инфраструктура связаны с участием или активными поездками.\n\nЭто связи, а не доказанные причины снижения подвоза.","x":1120,"y":45,"width":440,"height":230,"color":"2"},
-		{"id":"limits","type":"text","text":"# Что нельзя утверждать\n- зарубежные результаты — не данные Петербурга;\n- доля автомобиля ≠ время поездки и часы родителя;\n- нет оценки вклада занятий в пробки Петербурга;\n- школьные исследования не доказывают эффект для занятий;\n- Manz 2015: 16% поездок родителей с целью сопровождения — источник и знаменатель требуют проверки.","x":1630,"y":-610,"width":440,"height":300,"color":"3"},
-		{"id":"work","type":"text","text":"**Время и работа**\nУ части работающих матерей организация детских занятий конфликтует с оплачиваемой работой.\n\nЭто возможное ограничение, не измеренная величина потерь занятости.","x":-1660,"y":110,"width":410,"height":190,"color":"2"},
-		{"id":"fclaim","type":"text","text":"**Семейная организация важна**\nScheiner: возраст, доход, график работы и городской контекст связаны с сопровождением; сопровождают не только родители.\n\nSilonsaari: мобильность и практики родительства взаимосвязаны.","x":-1660,"y":-590,"width":410,"height":230,"color":"2"},
-		{"id":"bclaim","type":"text","text":"**Waygood, 2011 — старая выписка**\n«Бремя сопровождения» — минуты, которые родитель проводит в пути с ребёнком.\n\nСвязи со средой слабые; цифры и атрибуция требуют сверки с первоисточником.","x":-1660,"y":360,"width":410,"height":210,"color":"3"},
-		{"id":"scope","type":"text","text":"# Что исследуем сейчас\nПространственные условия альтернатив: возрастно подходящее предложение, разнообразие, пешеходная сеть, барьеры и — при наличии GTFS — общественный транспорт.\n\nНе измеряем без поведенческих данных: реальные поездки, долю автомобиля, время родителей, пробки, выбросы и влияние на занятость.","x":1630,"y":90,"width":440,"height":270,"color":"4"},
-		{"id":"next-question","type":"text","text":"**Следующий вопрос для проверки**\nКак временные ограничения семьи связаны с доступом ребёнка к занятиям? Что из этого объясняется пространственным устройством города?\n\nСначала проверить эмпирические свидетельства, затем формулировать механизм и решение.","x":-1200,"y":1370,"width":440,"height":230,"color":"4"},
-		{"id":"method-boundary","type":"text","text":"**Граница исследования**\nТекущие геоданные позволяют оценивать потенциальную пространственную доступность возрастно подходящих программ, но не фактические часы подвоза, выбор транспорта, трудовые потери или участие детей.\n\nНе превращать возможные последствия в измеренные эффекты.","x":1630,"y":455,"width":480,"height":240,"color":"3"},
-		{"id":"access-impact","type":"text","text":"## 3. Возможности ребёнка\nДоступ к занятиям может зависеть от транспортных и временных ресурсов семьи; самостоятельность — от цели поездки, возраста и родительских практик (Kojima 2022; Silonsaari et al. 2024).\n\nГипотеза об ограничении участия, а не доказательство, что сопровождение всегда вредно.","x":-1200,"y":1040,"width":430,"height":270,"color":"3"},
-		{"id":"traffic-impact","type":"text","text":"## 4. Городской транспорт\nLagrell & Kent (2026), Hjorthol & Fyhri (2009): организованные занятия создают спрос на поездки; в изученных контекстах автомобиль играет существенную роль.\n\nВклад секций в пробки и выбросы Петербурга не измерен.","x":-710,"y":1040,"width":430,"height":250,"color":"3"},
-		{"id":"sources-impact","type":"text","text":"**Навигация по заметкам**\n[[переписка-источники-2026-11-10]] — происхождение идеи и 10 часов\n[[escort-context-evidence-2026-11-09]] — проверенные фрагменты и оговорки\n[[waygood-2011]] — время сопровождения и вопросы\n[[scheiner-2016]] — социальные факторы и противоречия\n[[карта-литературы-и-реализуемых-решений-2026-11-10]] — границы текущей НИР","x":-2180,"y":1730,"width":430,"height":300,"color":"1"},
-		{"id":"policy-question","type":"text","text":"**Вопрос из личной заметки Scheiner (2016)**\nВ Германии обсуждаются бюджеты времени семей (BMFSFJ, 2012) и демографическая политика (BMI, 2013). Есть ли аналогичные российские документы?\n\nScheiner и McDonald дают неодинаковые результаты о занятости родителей и сопровождении: простой универсальной зависимости нет.","x":-1690,"y":1370,"width":450,"height":280,"color":"1"},
-		{"id":"work-impact","type":"text","text":"## 2. Трудовая деятельность\n*Time, Work, and Family Life* (2008): у части работающих матерей организация детских занятий конфликтует с оплачиваемой работой.\n\nПроверен фрагмент аннотации, не полный метод. Величина потерь занятости не установлена.","x":-1690,"y":1040,"width":430,"height":240,"color":"2"},
-		{"id":"time","type":"text","text":"## 1. Время семьи\nWaygood (2011): *chauffeuring burden* — суммарные минуты сопровождения ребёнка в пути на любом транспорте.\n\nСтарая выписка; цифры и атрибуция требуют сверки с первоисточником. Сопровождение может требовать времени и согласования распорядка.","x":-2180,"y":1040,"width":430,"height":240,"color":"2"},
-		{"id":"factors-hub","type":"text","text":"# Почему возникает сопровождение и почему выбирают автомобиль?\nДва разных решения; факторы взаимодействуют, а не образуют единственную причинную цепь.","x":-540,"y":-150,"width":510,"height":175,"color":"4"},
-		{"id":"spatial-factor","type":"text","text":"**Пространство и расстояние**\nHjorthol & Fyhri (2009): дистанция и автомобильные поездки на организованный досуг.\nBerg et al. (2023): занятия в обследованном контексте дальше других детских поездок.\nSteinmayr et al. (2011): связь удалённости с участием неодинакова для разных типов поселений.\nScheiner (2016): концентрация школ может удлинять школьные поездки — не прямой результат о секциях.","x":-1080,"y":-550,"width":450,"height":310,"color":"2"},
-		{"id":"street-factor","type":"text","text":"**Уличная сеть и форма города**\nWaygood (2011): в старой выписке трёхсторонние перекрёстки, связность и плотность соотносятся со временем сопровождения; связи слабые, проверить оригинал.\nLin & Yu (2011): в тайбэйской выборке способ досуговых поездок связан с плотностью перекрёстков, застройки, рабочих мест и качеством тротуаров.\nВысокая урбанизированность ≠ автоматически высокая самостоятельность (заметки Scheiner).","x":-1080,"y":-155,"width":450,"height":330,"color":"2"},
-		{"id":"transport-factor","type":"text","text":"**Транспортная доступность**\nPalm & Farber (2020): общественный транспорт и участие старшеклассников в послешкольных занятиях.\nGrow et al. (2008): среда и активные поездки.\nНаличие маршрута не доказывает, что ребёнок может или будет им пользоваться.","x":-1080,"y":255,"width":450,"height":260,"color":"2"},
-		{"id":"safety-factor","type":"text","text":"**Безопасность — объективная и воспринимаемая**\nFyhri & Hjorthol (2009): возраст, дистанция и родительское восприятие безопасности.\nTavakoli et al. (2024): существующий путь ≠ пригодный для ребёнка путь при дорожном риске.\nПерекрёстки могут одновременно повышать связность и создавать риски (заметка Scheiner).","x":-1080,"y":595,"width":450,"height":280,"color":"2"},
-		{"id":"age-factor","type":"text","text":"**Возраст и самостоятельная мобильность**\nScheiner (2016): сопровождение связано с возрастом; в старой выписке 12,6% поездок 10–13 лет против 32,5% всех школьных поездок до 18 лет — не прямое сравнение возрастов.\nKojima (2022): самостоятельность различается по целям поездки.\nВозраст допуска на программу ≠ возраст самостоятельной поездки.","x":30,"y":-650,"width":450,"height":300,"color":"3"},
-		{"id":"family-factor","type":"text","text":"**Ресурсы семьи и работа**\nScheiner (2016), старая выписка: доход, наличие автомобиля, фиксированный график, занятость обоих родителей, размер города, пол ребёнка связаны с сопровождением.\nMcDonald (2008) и Scheiner дают различающиеся результаты по занятости; не назначать универсальный знак связи.\nСопровождать могут также родственники и другие взрослые.","x":30,"y":-275,"width":450,"height":310,"color":"3"},
-		{"id":"parent-factor","type":"text","text":"**Родительские установки и воспитание**\nJohansson (2006): 357 родителей детей 8–11 лет, анкета и дневник; среда и установки связаны со способом поездки.\nSilonsaari et al. (2024): практики родительства и организация мобильности.\nНельзя выводить решение родителей из одного расстояния.","x":30,"y":110,"width":450,"height":260,"color":"3"},
-		{"id":"schedule-factor","type":"text","text":"**Расписание и цепочки семейных дел**\nTakakusagi, Ohmori & Osada (2021): семь сценариев «дом — занятие — магазин», ожидание, покупки и самостоятельная поездка ребёнка на LRT; заданные авторами длительности нельзя переносить.\nHe (2013): работа родителя и расположение рабочего места важны для совместных поездок.\nБез данных о расписаниях и семьях это контекст, не измеренный эффект.","x":530,"y":-650,"width":450,"height":325,"color":"3"},
-		{"id":"activity-factor","type":"text","text":"**Тип и организация занятия**\nLeung et al. (2019): образование, спорт, искусство и хобби изучались раздельно; единый класс может скрыть разную логику поездок.\nВыбранная специализированная программа не обязательно заменяется ближайшей секцией.\nПрямой эффект расписания или специализации на автомобильный подвоз в заметках не установлен.","x":530,"y":-250,"width":450,"height":280,"color":"3"},
-		{"id":"equipment-factor","type":"text","text":"**Инвентарь и альтернативы поездки**\nLunke & Nordbakke (2024): в заметках упомянуты хранение лыж/коньков, попутки, организованный автобус, совместные пешие/велосипедные поездки.\nЭто предложенные альтернативы и потенциальные барьеры, а не оценённые эффекты внедрения.","x":530,"y":110,"width":450,"height":235,"color":"3"},
-		{"id":"escort-decision","type":"text","text":"**Решение о сопровождении**\nНужно ли сопровождение, кто сопровождает, можно ли ехать одному? Вопрос зависит от возраста, цели поездки, безопасности, семейных практик и времени.","x":30,"y":475,"width":450,"height":180,"color":"4"},
-		{"id":"mode-decision","type":"text","text":"**Выбор способа поездки**\nАвтомобиль, общественный транспорт, пешком, велосипед и другие варианты. Наличие сопровождающего не означает поездку на машине; решения могут приниматься одновременно.","x":530,"y":475,"width":450,"height":180,"color":"4"},
-		{"id":"personal-waygood","type":"text","text":"**Вопрос из личной заметки Waygood (2011)**\n«Если в Америке проблема с субурбиями, то у нас с кружками — как решить через градостроительство?»\n\nТакже: может ли 10-летний школьник самостоятельно добраться до бассейна; как устроены кружки в Японии; каковы роль безопасности и норм?","x":-2200,"y":1370,"width":450,"height":270,"color":"1"},
-		{"id":"factor-sources","type":"text","text":"**Исходные заметки**\n[[scheiner-2016]] · [[waygood-2011]] · [[переписка-источники-2026-11-10]]\n[[escort-context-evidence-2026-11-09]]\n[[карта-литературы-и-реализуемых-решений-2026-11-10]]\n[[Схема. Детальная карта свидетельств литературы]]\n\nСтатус: часть чисел и атрибуций — старые выписки; сверять с первоисточниками.","x":30,"y":1165,"width":450,"height":260,"color":"1"},
-		{"id":"factor-limits","type":"text","text":"**Что мы пока не знаем о Петербурге**\nНе установлены значимость каждого фактора, фактические решения семей, возраст самостоятельных поездок и эффект размещения секций на автомобильный спрос.\nСетевая доступность не измеряет сопровождение, безопасность, занятость и выбор вида транспорта.","x":660,"y":840,"width":450,"height":250,"color":"1"},
-		{"id":"factor-questions","type":"text","text":"**Вопросы из твоих заметок**\nWaygood: может ли 10-летний школьник в Японии сам поехать в бассейн? Влияют безопасность или градостроительные нормы? Где расположены кружки?\nScheiner: почему расходятся выводы с McDonald? Как учитывать разных сопровождающих?\nГипотеза: территории с высокой условной нагрузкой сопровождения могут не совпадать с территориями низкой самостоятельной доступности.","x":0,"y":740,"width":450,"height":300,"color":"1"}
-	],
-	"edges":[
-		{"id":"e2","fromNode":"lclaim","fromSide":"bottom","toNode":"norway","toSide":"top","label":"мотивирует"},
-		{"id":"e3","fromNode":"norway","fromSide":"right","toNode":"problem","toSide":"left","label":"подтверждает в кейсе"},
-		{"id":"e4","fromNode":"finland","fromSide":"top","toNode":"norway","toSide":"bottom","label":"подтверждает в кейсе"},
-		{"id":"e5","fromNode":"japan","fromSide":"top","toNode":"finland","toSide":"bottom","label":"ограничивает обобщение"},
-		{"id":"e7","fromNode":"fclaim","fromSide":"bottom","toNode":"problem","toSide":"top","label":"объясняет контекст"},
-		{"id":"e8","fromNode":"work","fromSide":"top","toNode":"fclaim","toSide":"bottom","label":"показывает нагрузку"},
-		{"id":"e10","fromNode":"bclaim","fromSide":"top","toNode":"work","toSide":"bottom","label":"даёт понятие"},
-		{"id":"e11","fromNode":"problem","fromSide":"right","toNode":"factors-hub","toSide":"left","label":"ищем альтернативы"},
-		{"id":"e12","fromNode":"alternatives","fromSide":"bottom","toNode":"location","toSide":"top","label":"задаёт сценарии"},
-		{"id":"e13","fromNode":"location","fromSide":"bottom","toNode":"conditions","toSide":"top","label":"проверяем пространственно"},
-		{"id":"e14","fromNode":"conditions","fromSide":"right","toNode":"scope","toSide":"left","label":"проверяем при данных"},
-		{"id":"e15","fromNode":"limits","fromSide":"bottom","toNode":"scope","toSide":"top","label":"не доказывает"},
-		{"id":"e16","fromNode":"scope","fromSide":"bottom","toNode":"method-boundary","toSide":"top","label":"задаёт границу"},
-		{"id":"impact-e1","fromNode":"problem","fromSide":"bottom","toNode":"why-heading","toSide":"top","label":"зачем изучать"},
-		{"id":"impact-e2","fromNode":"origin","fromSide":"bottom","toNode":"time","toSide":"top","label":"исходный интерес"},
-		{"id":"impact-e3","fromNode":"why-heading","fromSide":"left","toNode":"time","toSide":"right","label":"возможное последствие"},
-		{"id":"impact-e4","fromNode":"why-heading","fromSide":"bottom","toNode":"work-impact","toSide":"top","label":"возможное последствие"},
-		{"id":"impact-e5","fromNode":"why-heading","fromSide":"right","toNode":"access-impact","toSide":"left","label":"возможное последствие"},
-		{"id":"impact-e6","fromNode":"why-heading","fromSide":"right","toNode":"traffic-impact","toSide":"left","label":"возможное последствие"},
-		{"id":"impact-e7","fromNode":"personal-waygood","fromSide":"right","toNode":"policy-question","toSide":"left","label":"градостроительный вопрос"},
-		{"id":"impact-e8","fromNode":"policy-question","fromSide":"top","toNode":"work-impact","toSide":"bottom","label":"политика и противоречия"},
-		{"id":"impact-e9","fromNode":"time","fromSide":"right","toNode":"next-question","toSide":"left","label":"временной ресурс"},
-		{"id":"impact-e10","fromNode":"work-impact","fromSide":"right","toNode":"next-question","toSide":"left","label":"конфликт расписаний"},
-		{"id":"impact-e11","fromNode":"access-impact","fromSide":"bottom","toNode":"next-question","toSide":"top","label":"неравенство возможностей?"},
-		{"id":"impact-e12","fromNode":"time","fromSide":"right","toNode":"work-impact","toSide":"left","label":"не измеряем"},
-		{"id":"impact-e13","fromNode":"traffic-impact","fromSide":"left","toNode":"access-impact","toSide":"right","label":"не измеряем"},
-		{"id":"impact-e14","fromNode":"method-boundary","fromSide":"top","toNode":"scope","toSide":"bottom","label":"согласуется с рамкой"},
-		{"id":"impact-e15","fromNode":"sources-impact","fromSide":"top","toNode":"personal-waygood","toSide":"bottom","label":"источники"},
-		{"id":"factors-e1","fromNode":"problem","fromSide":"right","toNode":"factors-hub","toSide":"left","label":"что определяет поездку?"},
-		{"id":"factors-e2","fromNode":"spatial-factor","fromSide":"right","toNode":"factors-hub","toSide":"left","label":"пространство"},
-		{"id":"factors-e3","fromNode":"street-factor","fromSide":"top","toNode":"spatial-factor","toSide":"bottom","label":"свойства среды"},
-		{"id":"factors-e4","fromNode":"transport-factor","fromSide":"bottom","toNode":"safety-factor","toSide":"top","label":"условия пути"},
-		{"id":"factors-e5","fromNode":"factors-hub","fromSide":"bottom","toNode":"escort-decision","toSide":"top","label":"условия сопровождения"},
-		{"id":"factors-e6","fromNode":"factors-hub","fromSide":"right","toNode":"mode-decision","toSide":"left","label":"условия выбора транспорта"},
-		{"id":"factors-e7","fromNode":"age-factor","fromSide":"bottom","toNode":"escort-decision","toSide":"top","label":"возраст / цель"},
-		{"id":"factors-e8","fromNode":"family-factor","fromSide":"bottom","toNode":"escort-decision","toSide":"top","label":"семейные ресурсы"},
-		{"id":"factors-e9","fromNode":"parent-factor","fromSide":"bottom","toNode":"escort-decision","toSide":"top","label":"установки"},
-		{"id":"factors-e10","fromNode":"schedule-factor","fromSide":"bottom","toNode":"mode-decision","toSide":"top","label":"цепочки дел"},
-		{"id":"factors-e11","fromNode":"activity-factor","fromSide":"top","toNode":"schedule-factor","toSide":"bottom","label":"тип / расписание"},
-		{"id":"factors-e12","fromNode":"equipment-factor","fromSide":"bottom","toNode":"mode-decision","toSide":"top","label":"инвентарь"},
-		{"id":"factors-e13","fromNode":"escort-decision","fromSide":"right","toNode":"mode-decision","toSide":"left","label":"связанные решения"},
-		{"id":"factors-e14","fromNode":"factor-questions","fromSide":"right","toNode":"factor-limits","toSide":"left","label":"требует проверки"},
-		{"id":"factors-e15","fromNode":"factor-sources","fromSide":"top","toNode":"factor-questions","toSide":"bottom","label":"основание вопросов"}
-	]
+  "nodes": [
+    {
+      "id": "problem",
+      "type": "file",
+      "x": -1660,
+      "y": -160,
+      "width": 420,
+      "height": 210,
+      "file": "02 Литература/Карта проблемы — узлы/КП — problem.md"
+    },
+    {
+      "id": "why-heading",
+      "type": "file",
+      "x": -1660,
+      "y": 730,
+      "width": 490,
+      "height": 170,
+      "file": "02 Литература/Карта проблемы — узлы/КП — why-heading.md"
+    },
+    {
+      "id": "origin",
+      "type": "file",
+      "x": -2180,
+      "y": 500,
+      "width": 450,
+      "height": 260,
+      "file": "02 Литература/Карта проблемы — узлы/КП — origin.md"
+    },
+    {
+      "id": "lclaim",
+      "type": "file",
+      "x": -2180,
+      "y": -600,
+      "width": 380,
+      "height": 210,
+      "file": "02 Литература/Карта проблемы — узлы/КП — lclaim.md"
+    },
+    {
+      "id": "norway",
+      "type": "file",
+      "x": -2180,
+      "y": -345,
+      "width": 380,
+      "height": 190,
+      "file": "02 Литература/Карта проблемы — узлы/КП — norway.md"
+    },
+    {
+      "id": "finland",
+      "type": "file",
+      "x": -2180,
+      "y": -110,
+      "width": 380,
+      "height": 210,
+      "file": "02 Литература/Карта проблемы — узлы/КП — finland.md"
+    },
+    {
+      "id": "japan",
+      "type": "file",
+      "x": -2180,
+      "y": 145,
+      "width": 380,
+      "height": 180,
+      "file": "02 Литература/Карта проблемы — узлы/КП — japan.md"
+    },
+    {
+      "id": "alternatives",
+      "type": "file",
+      "x": 1120,
+      "y": -610,
+      "width": 440,
+      "height": 270,
+      "file": "02 Литература/Карта проблемы — узлы/КП — alternatives.md"
+    },
+    {
+      "id": "location",
+      "type": "file",
+      "x": 1120,
+      "y": -260,
+      "width": 440,
+      "height": 230,
+      "file": "02 Литература/Карта проблемы — узлы/КП — location.md"
+    },
+    {
+      "id": "conditions",
+      "type": "file",
+      "x": 1120,
+      "y": 45,
+      "width": 440,
+      "height": 230,
+      "file": "02 Литература/Карта проблемы — узлы/КП — conditions.md"
+    },
+    {
+      "id": "limits",
+      "type": "file",
+      "x": 1630,
+      "y": -610,
+      "width": 440,
+      "height": 300,
+      "file": "02 Литература/Карта проблемы — узлы/КП — limits.md"
+    },
+    {
+      "id": "work",
+      "type": "file",
+      "x": -1660,
+      "y": 110,
+      "width": 410,
+      "height": 190,
+      "file": "02 Литература/Карта проблемы — узлы/КП — work.md"
+    },
+    {
+      "id": "fclaim",
+      "type": "file",
+      "x": -1660,
+      "y": -590,
+      "width": 410,
+      "height": 230,
+      "file": "02 Литература/Карта проблемы — узлы/КП — fclaim.md"
+    },
+    {
+      "id": "bclaim",
+      "type": "file",
+      "x": -1660,
+      "y": 360,
+      "width": 410,
+      "height": 210,
+      "file": "02 Литература/Карта проблемы — узлы/КП — bclaim.md"
+    },
+    {
+      "id": "scope",
+      "type": "file",
+      "x": 1630,
+      "y": 90,
+      "width": 440,
+      "height": 270,
+      "file": "02 Литература/Карта проблемы — узлы/КП — scope.md"
+    },
+    {
+      "id": "next-question",
+      "type": "file",
+      "x": -1200,
+      "y": 1370,
+      "width": 440,
+      "height": 230,
+      "file": "02 Литература/Карта проблемы — узлы/КП — next-question.md"
+    },
+    {
+      "id": "method-boundary",
+      "type": "file",
+      "x": 1630,
+      "y": 455,
+      "width": 480,
+      "height": 240,
+      "file": "02 Литература/Карта проблемы — узлы/КП — method-boundary.md"
+    },
+    {
+      "id": "access-impact",
+      "type": "file",
+      "x": -1200,
+      "y": 1040,
+      "width": 430,
+      "height": 270,
+      "file": "02 Литература/Карта проблемы — узлы/КП — access-impact.md"
+    },
+    {
+      "id": "traffic-impact",
+      "type": "file",
+      "x": -710,
+      "y": 1040,
+      "width": 430,
+      "height": 250,
+      "file": "02 Литература/Карта проблемы — узлы/КП — traffic-impact.md"
+    },
+    {
+      "id": "sources-impact",
+      "type": "file",
+      "x": -2180,
+      "y": 1730,
+      "width": 430,
+      "height": 300,
+      "file": "02 Литература/Карта проблемы — узлы/КП — sources-impact.md"
+    },
+    {
+      "id": "policy-question",
+      "type": "file",
+      "x": -1690,
+      "y": 1370,
+      "width": 450,
+      "height": 280,
+      "file": "02 Литература/Карта проблемы — узлы/КП — policy-question.md"
+    },
+    {
+      "id": "work-impact",
+      "type": "file",
+      "x": -1690,
+      "y": 1040,
+      "width": 430,
+      "height": 240,
+      "file": "02 Литература/Карта проблемы — узлы/КП — work-impact.md"
+    },
+    {
+      "id": "time",
+      "type": "file",
+      "x": -2180,
+      "y": 1040,
+      "width": 430,
+      "height": 240,
+      "file": "02 Литература/Карта проблемы — узлы/КП — time.md"
+    },
+    {
+      "id": "factors-hub",
+      "type": "file",
+      "x": -540,
+      "y": -150,
+      "width": 510,
+      "height": 175,
+      "file": "02 Литература/Карта проблемы — узлы/КП — factors-hub.md"
+    },
+    {
+      "id": "spatial-factor",
+      "type": "file",
+      "x": -1080,
+      "y": -550,
+      "width": 450,
+      "height": 310,
+      "file": "02 Литература/Карта проблемы — узлы/КП — spatial-factor.md"
+    },
+    {
+      "id": "street-factor",
+      "type": "file",
+      "x": -1080,
+      "y": -155,
+      "width": 450,
+      "height": 330,
+      "file": "02 Литература/Карта проблемы — узлы/КП — street-factor.md"
+    },
+    {
+      "id": "transport-factor",
+      "type": "file",
+      "x": -1080,
+      "y": 255,
+      "width": 450,
+      "height": 260,
+      "file": "02 Литература/Карта проблемы — узлы/КП — transport-factor.md"
+    },
+    {
+      "id": "safety-factor",
+      "type": "file",
+      "x": -1080,
+      "y": 595,
+      "width": 450,
+      "height": 280,
+      "file": "02 Литература/Карта проблемы — узлы/КП — safety-factor.md"
+    },
+    {
+      "id": "age-factor",
+      "type": "file",
+      "x": 30,
+      "y": -650,
+      "width": 450,
+      "height": 300,
+      "file": "02 Литература/Карта проблемы — узлы/КП — age-factor.md"
+    },
+    {
+      "id": "family-factor",
+      "type": "file",
+      "x": 30,
+      "y": -275,
+      "width": 450,
+      "height": 310,
+      "file": "02 Литература/Карта проблемы — узлы/КП — family-factor.md"
+    },
+    {
+      "id": "parent-factor",
+      "type": "file",
+      "x": 30,
+      "y": 110,
+      "width": 450,
+      "height": 260,
+      "file": "02 Литература/Карта проблемы — узлы/КП — parent-factor.md"
+    },
+    {
+      "id": "schedule-factor",
+      "type": "file",
+      "x": 530,
+      "y": -650,
+      "width": 450,
+      "height": 325,
+      "file": "02 Литература/Карта проблемы — узлы/КП — schedule-factor.md"
+    },
+    {
+      "id": "activity-factor",
+      "type": "file",
+      "x": 530,
+      "y": -250,
+      "width": 450,
+      "height": 280,
+      "file": "02 Литература/Карта проблемы — узлы/КП — activity-factor.md"
+    },
+    {
+      "id": "equipment-factor",
+      "type": "file",
+      "x": 530,
+      "y": 110,
+      "width": 450,
+      "height": 235,
+      "file": "02 Литература/Карта проблемы — узлы/КП — equipment-factor.md"
+    },
+    {
+      "id": "escort-decision",
+      "type": "file",
+      "x": 30,
+      "y": 475,
+      "width": 450,
+      "height": 180,
+      "file": "02 Литература/Карта проблемы — узлы/КП — escort-decision.md"
+    },
+    {
+      "id": "mode-decision",
+      "type": "file",
+      "x": 530,
+      "y": 475,
+      "width": 450,
+      "height": 180,
+      "file": "02 Литература/Карта проблемы — узлы/КП — mode-decision.md"
+    },
+    {
+      "id": "personal-waygood",
+      "type": "file",
+      "x": -2200,
+      "y": 1370,
+      "width": 450,
+      "height": 270,
+      "file": "02 Литература/Карта проблемы — узлы/КП — personal-waygood.md"
+    },
+    {
+      "id": "factor-sources",
+      "type": "file",
+      "x": 30,
+      "y": 1165,
+      "width": 450,
+      "height": 260,
+      "file": "02 Литература/Карта проблемы — узлы/КП — factor-sources.md"
+    },
+    {
+      "id": "factor-limits",
+      "type": "file",
+      "x": 660,
+      "y": 840,
+      "width": 450,
+      "height": 250,
+      "file": "02 Литература/Карта проблемы — узлы/КП — factor-limits.md"
+    },
+    {
+      "id": "factor-questions",
+      "type": "file",
+      "x": 0,
+      "y": 740,
+      "width": 450,
+      "height": 300,
+      "file": "02 Литература/Карта проблемы — узлы/КП — factor-questions.md"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e2",
+      "fromNode": "lclaim",
+      "fromSide": "bottom",
+      "toNode": "norway",
+      "toSide": "top",
+      "label": "мотивирует"
+    },
+    {
+      "id": "e3",
+      "fromNode": "norway",
+      "fromSide": "right",
+      "toNode": "problem",
+      "toSide": "left",
+      "label": "подтверждает в кейсе"
+    },
+    {
+      "id": "e4",
+      "fromNode": "finland",
+      "fromSide": "top",
+      "toNode": "norway",
+      "toSide": "bottom",
+      "label": "подтверждает в кейсе"
+    },
+    {
+      "id": "e5",
+      "fromNode": "japan",
+      "fromSide": "top",
+      "toNode": "finland",
+      "toSide": "bottom",
+      "label": "ограничивает обобщение"
+    },
+    {
+      "id": "e7",
+      "fromNode": "fclaim",
+      "fromSide": "bottom",
+      "toNode": "problem",
+      "toSide": "top",
+      "label": "объясняет контекст"
+    },
+    {
+      "id": "e8",
+      "fromNode": "work",
+      "fromSide": "top",
+      "toNode": "fclaim",
+      "toSide": "bottom",
+      "label": "показывает нагрузку"
+    },
+    {
+      "id": "e10",
+      "fromNode": "bclaim",
+      "fromSide": "top",
+      "toNode": "work",
+      "toSide": "bottom",
+      "label": "даёт понятие"
+    },
+    {
+      "id": "e11",
+      "fromNode": "problem",
+      "fromSide": "right",
+      "toNode": "factors-hub",
+      "toSide": "left",
+      "label": "ищем альтернативы"
+    },
+    {
+      "id": "e12",
+      "fromNode": "alternatives",
+      "fromSide": "bottom",
+      "toNode": "location",
+      "toSide": "top",
+      "label": "задаёт сценарии"
+    },
+    {
+      "id": "e13",
+      "fromNode": "location",
+      "fromSide": "bottom",
+      "toNode": "conditions",
+      "toSide": "top",
+      "label": "проверяем пространственно"
+    },
+    {
+      "id": "e14",
+      "fromNode": "conditions",
+      "fromSide": "right",
+      "toNode": "scope",
+      "toSide": "left",
+      "label": "проверяем при данных"
+    },
+    {
+      "id": "e15",
+      "fromNode": "limits",
+      "fromSide": "bottom",
+      "toNode": "scope",
+      "toSide": "top",
+      "label": "не доказывает"
+    },
+    {
+      "id": "e16",
+      "fromNode": "scope",
+      "fromSide": "bottom",
+      "toNode": "method-boundary",
+      "toSide": "top",
+      "label": "задаёт границу"
+    },
+    {
+      "id": "impact-e1",
+      "fromNode": "problem",
+      "fromSide": "bottom",
+      "toNode": "why-heading",
+      "toSide": "top",
+      "label": "зачем изучать"
+    },
+    {
+      "id": "impact-e2",
+      "fromNode": "origin",
+      "fromSide": "bottom",
+      "toNode": "time",
+      "toSide": "top",
+      "label": "исходный интерес"
+    },
+    {
+      "id": "impact-e3",
+      "fromNode": "why-heading",
+      "fromSide": "left",
+      "toNode": "time",
+      "toSide": "right",
+      "label": "возможное последствие"
+    },
+    {
+      "id": "impact-e4",
+      "fromNode": "why-heading",
+      "fromSide": "bottom",
+      "toNode": "work-impact",
+      "toSide": "top",
+      "label": "возможное последствие"
+    },
+    {
+      "id": "impact-e5",
+      "fromNode": "why-heading",
+      "fromSide": "right",
+      "toNode": "access-impact",
+      "toSide": "left",
+      "label": "возможное последствие"
+    },
+    {
+      "id": "impact-e6",
+      "fromNode": "why-heading",
+      "fromSide": "right",
+      "toNode": "traffic-impact",
+      "toSide": "left",
+      "label": "возможное последствие"
+    },
+    {
+      "id": "impact-e7",
+      "fromNode": "personal-waygood",
+      "fromSide": "right",
+      "toNode": "policy-question",
+      "toSide": "left",
+      "label": "градостроительный вопрос"
+    },
+    {
+      "id": "impact-e8",
+      "fromNode": "policy-question",
+      "fromSide": "top",
+      "toNode": "work-impact",
+      "toSide": "bottom",
+      "label": "политика и противоречия"
+    },
+    {
+      "id": "impact-e9",
+      "fromNode": "time",
+      "fromSide": "right",
+      "toNode": "next-question",
+      "toSide": "left",
+      "label": "временной ресурс"
+    },
+    {
+      "id": "impact-e10",
+      "fromNode": "work-impact",
+      "fromSide": "right",
+      "toNode": "next-question",
+      "toSide": "left",
+      "label": "конфликт расписаний"
+    },
+    {
+      "id": "impact-e11",
+      "fromNode": "access-impact",
+      "fromSide": "bottom",
+      "toNode": "next-question",
+      "toSide": "top",
+      "label": "неравенство возможностей?"
+    },
+    {
+      "id": "impact-e12",
+      "fromNode": "time",
+      "fromSide": "right",
+      "toNode": "work-impact",
+      "toSide": "left",
+      "label": "не измеряем"
+    },
+    {
+      "id": "impact-e13",
+      "fromNode": "traffic-impact",
+      "fromSide": "left",
+      "toNode": "access-impact",
+      "toSide": "right",
+      "label": "не измеряем"
+    },
+    {
+      "id": "impact-e14",
+      "fromNode": "method-boundary",
+      "fromSide": "top",
+      "toNode": "scope",
+      "toSide": "bottom",
+      "label": "согласуется с рамкой"
+    },
+    {
+      "id": "impact-e15",
+      "fromNode": "sources-impact",
+      "fromSide": "top",
+      "toNode": "personal-waygood",
+      "toSide": "bottom",
+      "label": "источники"
+    },
+    {
+      "id": "factors-e1",
+      "fromNode": "problem",
+      "fromSide": "right",
+      "toNode": "factors-hub",
+      "toSide": "left",
+      "label": "что определяет поездку?"
+    },
+    {
+      "id": "factors-e2",
+      "fromNode": "spatial-factor",
+      "fromSide": "right",
+      "toNode": "factors-hub",
+      "toSide": "left",
+      "label": "пространство"
+    },
+    {
+      "id": "factors-e3",
+      "fromNode": "street-factor",
+      "fromSide": "top",
+      "toNode": "spatial-factor",
+      "toSide": "bottom",
+      "label": "свойства среды"
+    },
+    {
+      "id": "factors-e4",
+      "fromNode": "transport-factor",
+      "fromSide": "bottom",
+      "toNode": "safety-factor",
+      "toSide": "top",
+      "label": "условия пути"
+    },
+    {
+      "id": "factors-e5",
+      "fromNode": "factors-hub",
+      "fromSide": "bottom",
+      "toNode": "escort-decision",
+      "toSide": "top",
+      "label": "условия сопровождения"
+    },
+    {
+      "id": "factors-e6",
+      "fromNode": "factors-hub",
+      "fromSide": "right",
+      "toNode": "mode-decision",
+      "toSide": "left",
+      "label": "условия выбора транспорта"
+    },
+    {
+      "id": "factors-e7",
+      "fromNode": "age-factor",
+      "fromSide": "bottom",
+      "toNode": "escort-decision",
+      "toSide": "top",
+      "label": "возраст / цель"
+    },
+    {
+      "id": "factors-e8",
+      "fromNode": "family-factor",
+      "fromSide": "bottom",
+      "toNode": "escort-decision",
+      "toSide": "top",
+      "label": "семейные ресурсы"
+    },
+    {
+      "id": "factors-e9",
+      "fromNode": "parent-factor",
+      "fromSide": "bottom",
+      "toNode": "escort-decision",
+      "toSide": "top",
+      "label": "установки"
+    },
+    {
+      "id": "factors-e10",
+      "fromNode": "schedule-factor",
+      "fromSide": "bottom",
+      "toNode": "mode-decision",
+      "toSide": "top",
+      "label": "цепочки дел"
+    },
+    {
+      "id": "factors-e11",
+      "fromNode": "activity-factor",
+      "fromSide": "top",
+      "toNode": "schedule-factor",
+      "toSide": "bottom",
+      "label": "тип / расписание"
+    },
+    {
+      "id": "factors-e12",
+      "fromNode": "equipment-factor",
+      "fromSide": "bottom",
+      "toNode": "mode-decision",
+      "toSide": "top",
+      "label": "инвентарь"
+    },
+    {
+      "id": "factors-e13",
+      "fromNode": "escort-decision",
+      "fromSide": "right",
+      "toNode": "mode-decision",
+      "toSide": "left",
+      "label": "связанные решения"
+    },
+    {
+      "id": "factors-e14",
+      "fromNode": "factor-questions",
+      "fromSide": "right",
+      "toNode": "factor-limits",
+      "toSide": "left",
+      "label": "требует проверки"
+    },
+    {
+      "id": "factors-e15",
+      "fromNode": "factor-sources",
+      "fromSide": "top",
+      "toNode": "factor-questions",
+      "toSide": "bottom",
+      "label": "основание вопросов"
+    }
+  ]
 }
