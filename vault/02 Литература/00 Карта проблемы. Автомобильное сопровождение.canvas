@@ -1,710 +1,137 @@
 {
-  "nodes": [
-    {
-      "id": "problem",
-      "type": "file",
-      "x": -1660,
-      "y": -160,
-      "width": 420,
-      "height": 210,
-      "file": "02 Литература/Карта проблемы — узлы/КП — problem.md"
-    },
-    {
-      "id": "why-heading",
-      "type": "file",
-      "x": -1660,
-      "y": 730,
-      "width": 490,
-      "height": 170,
-      "file": "02 Литература/Карта проблемы — узлы/КП — why-heading.md"
-    },
-    {
-      "id": "origin",
-      "type": "file",
-      "x": -2180,
-      "y": 500,
-      "width": 450,
-      "height": 260,
-      "file": "02 Литература/Карта проблемы — узлы/КП — origin.md"
-    },
-    {
-      "id": "lclaim",
-      "type": "file",
-      "x": -2180,
-      "y": -600,
-      "width": 380,
-      "height": 210,
-      "file": "02 Литература/Карта проблемы — узлы/КП — lclaim.md"
-    },
-    {
-      "id": "norway",
-      "type": "file",
-      "x": -2180,
-      "y": -345,
-      "width": 380,
-      "height": 190,
-      "file": "02 Литература/Карта проблемы — узлы/КП — norway.md"
-    },
-    {
-      "id": "finland",
-      "type": "file",
-      "x": -2180,
-      "y": -110,
-      "width": 380,
-      "height": 210,
-      "file": "02 Литература/Карта проблемы — узлы/КП — finland.md"
-    },
-    {
-      "id": "japan",
-      "type": "file",
-      "x": -2180,
-      "y": 145,
-      "width": 380,
-      "height": 180,
-      "file": "02 Литература/Карта проблемы — узлы/КП — japan.md"
-    },
-    {
-      "id": "alternatives",
-      "type": "file",
-      "x": 1120,
-      "y": -610,
-      "width": 440,
-      "height": 270,
-      "file": "02 Литература/Карта проблемы — узлы/КП — alternatives.md"
-    },
-    {
-      "id": "location",
-      "type": "file",
-      "x": 1120,
-      "y": -260,
-      "width": 440,
-      "height": 230,
-      "file": "02 Литература/Карта проблемы — узлы/КП — location.md"
-    },
-    {
-      "id": "conditions",
-      "type": "file",
-      "x": 1120,
-      "y": 45,
-      "width": 440,
-      "height": 230,
-      "file": "02 Литература/Карта проблемы — узлы/КП — conditions.md"
-    },
-    {
-      "id": "limits",
-      "type": "file",
-      "x": 1630,
-      "y": -610,
-      "width": 440,
-      "height": 300,
-      "file": "02 Литература/Карта проблемы — узлы/КП — limits.md"
-    },
-    {
-      "id": "work",
-      "type": "file",
-      "x": -1660,
-      "y": 110,
-      "width": 410,
-      "height": 190,
-      "file": "02 Литература/Карта проблемы — узлы/КП — work.md"
-    },
-    {
-      "id": "fclaim",
-      "type": "file",
-      "x": -1660,
-      "y": -590,
-      "width": 410,
-      "height": 230,
-      "file": "02 Литература/Карта проблемы — узлы/КП — fclaim.md"
-    },
-    {
-      "id": "bclaim",
-      "type": "file",
-      "x": -1660,
-      "y": 360,
-      "width": 410,
-      "height": 210,
-      "file": "02 Литература/Карта проблемы — узлы/КП — bclaim.md"
-    },
-    {
-      "id": "scope",
-      "type": "file",
-      "x": 1630,
-      "y": 90,
-      "width": 440,
-      "height": 270,
-      "file": "02 Литература/Карта проблемы — узлы/КП — scope.md"
-    },
-    {
-      "id": "next-question",
-      "type": "file",
-      "x": -1200,
-      "y": 1370,
-      "width": 440,
-      "height": 230,
-      "file": "02 Литература/Карта проблемы — узлы/КП — next-question.md"
-    },
-    {
-      "id": "method-boundary",
-      "type": "file",
-      "x": 1630,
-      "y": 455,
-      "width": 480,
-      "height": 240,
-      "file": "02 Литература/Карта проблемы — узлы/КП — method-boundary.md"
-    },
-    {
-      "id": "access-impact",
-      "type": "file",
-      "x": -1200,
-      "y": 1040,
-      "width": 430,
-      "height": 270,
-      "file": "02 Литература/Карта проблемы — узлы/КП — access-impact.md"
-    },
-    {
-      "id": "traffic-impact",
-      "type": "file",
-      "x": -710,
-      "y": 1040,
-      "width": 430,
-      "height": 250,
-      "file": "02 Литература/Карта проблемы — узлы/КП — traffic-impact.md"
-    },
-    {
-      "id": "sources-impact",
-      "type": "file",
-      "x": -2180,
-      "y": 1730,
-      "width": 430,
-      "height": 300,
-      "file": "02 Литература/Карта проблемы — узлы/КП — sources-impact.md"
-    },
-    {
-      "id": "policy-question",
-      "type": "file",
-      "x": -1690,
-      "y": 1370,
-      "width": 450,
-      "height": 280,
-      "file": "02 Литература/Карта проблемы — узлы/КП — policy-question.md"
-    },
-    {
-      "id": "work-impact",
-      "type": "file",
-      "x": -1690,
-      "y": 1040,
-      "width": 430,
-      "height": 240,
-      "file": "02 Литература/Карта проблемы — узлы/КП — work-impact.md"
-    },
-    {
-      "id": "time",
-      "type": "file",
-      "x": -2180,
-      "y": 1040,
-      "width": 430,
-      "height": 240,
-      "file": "02 Литература/Карта проблемы — узлы/КП — time.md"
-    },
-    {
-      "id": "factors-hub",
-      "type": "file",
-      "x": -540,
-      "y": -150,
-      "width": 510,
-      "height": 175,
-      "file": "02 Литература/Карта проблемы — узлы/КП — factors-hub.md"
-    },
-    {
-      "id": "spatial-factor",
-      "type": "file",
-      "x": -1080,
-      "y": -550,
-      "width": 450,
-      "height": 310,
-      "file": "02 Литература/Карта проблемы — узлы/КП — spatial-factor.md"
-    },
-    {
-      "id": "street-factor",
-      "type": "file",
-      "x": -1080,
-      "y": -155,
-      "width": 450,
-      "height": 330,
-      "file": "02 Литература/Карта проблемы — узлы/КП — street-factor.md"
-    },
-    {
-      "id": "transport-factor",
-      "type": "file",
-      "x": -1080,
-      "y": 255,
-      "width": 450,
-      "height": 260,
-      "file": "02 Литература/Карта проблемы — узлы/КП — transport-factor.md"
-    },
-    {
-      "id": "safety-factor",
-      "type": "file",
-      "x": -1080,
-      "y": 595,
-      "width": 450,
-      "height": 280,
-      "file": "02 Литература/Карта проблемы — узлы/КП — safety-factor.md"
-    },
-    {
-      "id": "age-factor",
-      "type": "file",
-      "x": 30,
-      "y": -650,
-      "width": 450,
-      "height": 300,
-      "file": "02 Литература/Карта проблемы — узлы/КП — age-factor.md"
-    },
-    {
-      "id": "family-factor",
-      "type": "file",
-      "x": 30,
-      "y": -275,
-      "width": 450,
-      "height": 310,
-      "file": "02 Литература/Карта проблемы — узлы/КП — family-factor.md"
-    },
-    {
-      "id": "parent-factor",
-      "type": "file",
-      "x": 30,
-      "y": 110,
-      "width": 450,
-      "height": 260,
-      "file": "02 Литература/Карта проблемы — узлы/КП — parent-factor.md"
-    },
-    {
-      "id": "schedule-factor",
-      "type": "file",
-      "x": 530,
-      "y": -650,
-      "width": 450,
-      "height": 325,
-      "file": "02 Литература/Карта проблемы — узлы/КП — schedule-factor.md"
-    },
-    {
-      "id": "activity-factor",
-      "type": "file",
-      "x": 530,
-      "y": -250,
-      "width": 450,
-      "height": 280,
-      "file": "02 Литература/Карта проблемы — узлы/КП — activity-factor.md"
-    },
-    {
-      "id": "equipment-factor",
-      "type": "file",
-      "x": 530,
-      "y": 110,
-      "width": 450,
-      "height": 235,
-      "file": "02 Литература/Карта проблемы — узлы/КП — equipment-factor.md"
-    },
-    {
-      "id": "escort-decision",
-      "type": "file",
-      "x": 30,
-      "y": 475,
-      "width": 450,
-      "height": 180,
-      "file": "02 Литература/Карта проблемы — узлы/КП — escort-decision.md"
-    },
-    {
-      "id": "mode-decision",
-      "type": "file",
-      "x": 530,
-      "y": 475,
-      "width": 450,
-      "height": 180,
-      "file": "02 Литература/Карта проблемы — узлы/КП — mode-decision.md"
-    },
-    {
-      "id": "personal-waygood",
-      "type": "file",
-      "x": -2200,
-      "y": 1370,
-      "width": 450,
-      "height": 270,
-      "file": "02 Литература/Карта проблемы — узлы/КП — personal-waygood.md"
-    },
-    {
-      "id": "factor-sources",
-      "type": "file",
-      "x": 30,
-      "y": 1165,
-      "width": 450,
-      "height": 260,
-      "file": "02 Литература/Карта проблемы — узлы/КП — factor-sources.md"
-    },
-    {
-      "id": "factor-limits",
-      "type": "file",
-      "x": 660,
-      "y": 840,
-      "width": 450,
-      "height": 250,
-      "file": "02 Литература/Карта проблемы — узлы/КП — factor-limits.md"
-    },
-    {
-      "id": "factor-questions",
-      "type": "file",
-      "x": 0,
-      "y": 740,
-      "width": 450,
-      "height": 300,
-      "file": "02 Литература/Карта проблемы — узлы/КП — factor-questions.md"
-    }
-  ],
-  "edges": [
-    {
-      "id": "e2",
-      "fromNode": "lclaim",
-      "fromSide": "bottom",
-      "toNode": "norway",
-      "toSide": "top",
-      "label": "мотивирует"
-    },
-    {
-      "id": "e3",
-      "fromNode": "norway",
-      "fromSide": "right",
-      "toNode": "problem",
-      "toSide": "left",
-      "label": "подтверждает в кейсе"
-    },
-    {
-      "id": "e4",
-      "fromNode": "finland",
-      "fromSide": "top",
-      "toNode": "norway",
-      "toSide": "bottom",
-      "label": "подтверждает в кейсе"
-    },
-    {
-      "id": "e5",
-      "fromNode": "japan",
-      "fromSide": "top",
-      "toNode": "finland",
-      "toSide": "bottom",
-      "label": "ограничивает обобщение"
-    },
-    {
-      "id": "e7",
-      "fromNode": "fclaim",
-      "fromSide": "bottom",
-      "toNode": "problem",
-      "toSide": "top",
-      "label": "объясняет контекст"
-    },
-    {
-      "id": "e8",
-      "fromNode": "work",
-      "fromSide": "top",
-      "toNode": "fclaim",
-      "toSide": "bottom",
-      "label": "показывает нагрузку"
-    },
-    {
-      "id": "e10",
-      "fromNode": "bclaim",
-      "fromSide": "top",
-      "toNode": "work",
-      "toSide": "bottom",
-      "label": "даёт понятие"
-    },
-    {
-      "id": "e11",
-      "fromNode": "problem",
-      "fromSide": "right",
-      "toNode": "factors-hub",
-      "toSide": "left",
-      "label": "ищем альтернативы"
-    },
-    {
-      "id": "e12",
-      "fromNode": "alternatives",
-      "fromSide": "bottom",
-      "toNode": "location",
-      "toSide": "top",
-      "label": "задаёт сценарии"
-    },
-    {
-      "id": "e13",
-      "fromNode": "location",
-      "fromSide": "bottom",
-      "toNode": "conditions",
-      "toSide": "top",
-      "label": "проверяем пространственно"
-    },
-    {
-      "id": "e14",
-      "fromNode": "conditions",
-      "fromSide": "right",
-      "toNode": "scope",
-      "toSide": "left",
-      "label": "проверяем при данных"
-    },
-    {
-      "id": "e15",
-      "fromNode": "limits",
-      "fromSide": "bottom",
-      "toNode": "scope",
-      "toSide": "top",
-      "label": "не доказывает"
-    },
-    {
-      "id": "e16",
-      "fromNode": "scope",
-      "fromSide": "bottom",
-      "toNode": "method-boundary",
-      "toSide": "top",
-      "label": "задаёт границу"
-    },
-    {
-      "id": "impact-e1",
-      "fromNode": "problem",
-      "fromSide": "bottom",
-      "toNode": "why-heading",
-      "toSide": "top",
-      "label": "зачем изучать"
-    },
-    {
-      "id": "impact-e2",
-      "fromNode": "origin",
-      "fromSide": "bottom",
-      "toNode": "time",
-      "toSide": "top",
-      "label": "исходный интерес"
-    },
-    {
-      "id": "impact-e3",
-      "fromNode": "why-heading",
-      "fromSide": "left",
-      "toNode": "time",
-      "toSide": "right",
-      "label": "возможное последствие"
-    },
-    {
-      "id": "impact-e4",
-      "fromNode": "why-heading",
-      "fromSide": "bottom",
-      "toNode": "work-impact",
-      "toSide": "top",
-      "label": "возможное последствие"
-    },
-    {
-      "id": "impact-e5",
-      "fromNode": "why-heading",
-      "fromSide": "right",
-      "toNode": "access-impact",
-      "toSide": "left",
-      "label": "возможное последствие"
-    },
-    {
-      "id": "impact-e6",
-      "fromNode": "why-heading",
-      "fromSide": "right",
-      "toNode": "traffic-impact",
-      "toSide": "left",
-      "label": "возможное последствие"
-    },
-    {
-      "id": "impact-e7",
-      "fromNode": "personal-waygood",
-      "fromSide": "right",
-      "toNode": "policy-question",
-      "toSide": "left",
-      "label": "градостроительный вопрос"
-    },
-    {
-      "id": "impact-e8",
-      "fromNode": "policy-question",
-      "fromSide": "top",
-      "toNode": "work-impact",
-      "toSide": "bottom",
-      "label": "политика и противоречия"
-    },
-    {
-      "id": "impact-e9",
-      "fromNode": "time",
-      "fromSide": "right",
-      "toNode": "next-question",
-      "toSide": "left",
-      "label": "временной ресурс"
-    },
-    {
-      "id": "impact-e10",
-      "fromNode": "work-impact",
-      "fromSide": "right",
-      "toNode": "next-question",
-      "toSide": "left",
-      "label": "конфликт расписаний"
-    },
-    {
-      "id": "impact-e11",
-      "fromNode": "access-impact",
-      "fromSide": "bottom",
-      "toNode": "next-question",
-      "toSide": "top",
-      "label": "неравенство возможностей?"
-    },
-    {
-      "id": "impact-e12",
-      "fromNode": "time",
-      "fromSide": "right",
-      "toNode": "work-impact",
-      "toSide": "left",
-      "label": "не измеряем"
-    },
-    {
-      "id": "impact-e13",
-      "fromNode": "traffic-impact",
-      "fromSide": "left",
-      "toNode": "access-impact",
-      "toSide": "right",
-      "label": "не измеряем"
-    },
-    {
-      "id": "impact-e14",
-      "fromNode": "method-boundary",
-      "fromSide": "top",
-      "toNode": "scope",
-      "toSide": "bottom",
-      "label": "согласуется с рамкой"
-    },
-    {
-      "id": "impact-e15",
-      "fromNode": "sources-impact",
-      "fromSide": "top",
-      "toNode": "personal-waygood",
-      "toSide": "bottom",
-      "label": "источники"
-    },
-    {
-      "id": "factors-e1",
-      "fromNode": "problem",
-      "fromSide": "right",
-      "toNode": "factors-hub",
-      "toSide": "left",
-      "label": "что определяет поездку?"
-    },
-    {
-      "id": "factors-e2",
-      "fromNode": "spatial-factor",
-      "fromSide": "right",
-      "toNode": "factors-hub",
-      "toSide": "left",
-      "label": "пространство"
-    },
-    {
-      "id": "factors-e3",
-      "fromNode": "street-factor",
-      "fromSide": "top",
-      "toNode": "spatial-factor",
-      "toSide": "bottom",
-      "label": "свойства среды"
-    },
-    {
-      "id": "factors-e4",
-      "fromNode": "transport-factor",
-      "fromSide": "bottom",
-      "toNode": "safety-factor",
-      "toSide": "top",
-      "label": "условия пути"
-    },
-    {
-      "id": "factors-e5",
-      "fromNode": "factors-hub",
-      "fromSide": "bottom",
-      "toNode": "escort-decision",
-      "toSide": "top",
-      "label": "условия сопровождения"
-    },
-    {
-      "id": "factors-e6",
-      "fromNode": "factors-hub",
-      "fromSide": "right",
-      "toNode": "mode-decision",
-      "toSide": "left",
-      "label": "условия выбора транспорта"
-    },
-    {
-      "id": "factors-e7",
-      "fromNode": "age-factor",
-      "fromSide": "bottom",
-      "toNode": "escort-decision",
-      "toSide": "top",
-      "label": "возраст / цель"
-    },
-    {
-      "id": "factors-e8",
-      "fromNode": "family-factor",
-      "fromSide": "bottom",
-      "toNode": "escort-decision",
-      "toSide": "top",
-      "label": "семейные ресурсы"
-    },
-    {
-      "id": "factors-e9",
-      "fromNode": "parent-factor",
-      "fromSide": "bottom",
-      "toNode": "escort-decision",
-      "toSide": "top",
-      "label": "установки"
-    },
-    {
-      "id": "factors-e10",
-      "fromNode": "schedule-factor",
-      "fromSide": "bottom",
-      "toNode": "mode-decision",
-      "toSide": "top",
-      "label": "цепочки дел"
-    },
-    {
-      "id": "factors-e11",
-      "fromNode": "activity-factor",
-      "fromSide": "top",
-      "toNode": "schedule-factor",
-      "toSide": "bottom",
-      "label": "тип / расписание"
-    },
-    {
-      "id": "factors-e12",
-      "fromNode": "equipment-factor",
-      "fromSide": "bottom",
-      "toNode": "mode-decision",
-      "toSide": "top",
-      "label": "инвентарь"
-    },
-    {
-      "id": "factors-e13",
-      "fromNode": "escort-decision",
-      "fromSide": "right",
-      "toNode": "mode-decision",
-      "toSide": "left",
-      "label": "связанные решения"
-    },
-    {
-      "id": "factors-e14",
-      "fromNode": "factor-questions",
-      "fromSide": "right",
-      "toNode": "factor-limits",
-      "toSide": "left",
-      "label": "требует проверки"
-    },
-    {
-      "id": "factors-e15",
-      "fromNode": "factor-sources",
-      "fromSide": "top",
-      "toNode": "factor-questions",
-      "toSide": "bottom",
-      "label": "основание вопросов"
-    }
-  ]
+	"nodes":[
+		{"id":"problem","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Проблема.md","x":-1660,"y":-160,"width":420,"height":210,"color":"1"},
+		{"id":"why-heading","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Почему сопровождение может быть проблемой.md","x":-1660,"y":730,"width":490,"height":170,"color":"1"},
+		{"id":"origin","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Исходная мотивация.md","x":-2180,"y":500,"width":450,"height":260,"color":"1"},
+		{"id":"lclaim","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Lagrell и Kent — обзор.md","x":-2180,"y":-600,"width":380,"height":210,"color":"2"},
+		{"id":"norway","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Hjorthol и Fyhri — Норвегия.md","x":-2180,"y":-345,"width":380,"height":190,"color":"2"},
+		{"id":"finland","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Berg и др. — Финляндия.md","x":-2180,"y":-110,"width":380,"height":210,"color":"2"},
+		{"id":"japan","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Kojima — Япония.md","x":-2180,"y":145,"width":380,"height":180,"color":"2"},
+		{"id":"work","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Время и работа.md","x":-1660,"y":110,"width":410,"height":190,"color":"2"},
+		{"id":"fclaim","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Семейная организация.md","x":-1660,"y":-590,"width":410,"height":230,"color":"2"},
+		{"id":"bclaim","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Waygood — обзор сопровождения.md","x":-1660,"y":360,"width":410,"height":210,"color":"2"},
+		{"id":"next-question","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Следующий вопрос.md","x":-1200,"y":1370,"width":440,"height":270,"color":"4"},
+		{"id":"access-impact","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Возможности ребёнка.md","x":-1200,"y":1040,"width":430,"height":240,"color":"1"},
+		{"id":"traffic-impact","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Городской транспорт.md","x":-710,"y":1040,"width":430,"height":240,"color":"1"},
+		{"id":"policy-question","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Вопрос из заметки Scheiner.md","x":-1690,"y":1370,"width":450,"height":270,"color":"3"},
+		{"id":"work-impact","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Трудовая деятельность.md","x":-1690,"y":1040,"width":430,"height":240,"color":"1"},
+		{"id":"time","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Время семьи.md","x":-2180,"y":1040,"width":430,"height":240,"color":"1"},
+		{"id":"spatial-factor","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Пространство и расстояние.md","x":-1080,"y":-550,"width":450,"height":310,"color":"3"},
+		{"id":"street-factor","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Уличная сеть и форма города.md","x":-1080,"y":-155,"width":450,"height":330,"color":"3"},
+		{"id":"transport-factor","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Транспортная доступность.md","x":-1080,"y":255,"width":450,"height":260,"color":"3"},
+		{"id":"safety-factor","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Безопасность пути.md","x":-1080,"y":595,"width":450,"height":280,"color":"3"},
+		{"id":"personal-waygood","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Вопрос из заметки Waygood.md","x":-2200,"y":1370,"width":450,"height":270,"color":"3"},
+		{"id":"digital-methods","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Как проблему исследовали цифровыми методами.md","x":-650,"y":1600,"width":500,"height":340,"color":"4"},
+		{"id":"normative-context","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Что регулируют нормы для нашей задачи.md","x":-2800,"y":1600,"width":500,"height":300,"color":"5"},
+		{"id":"norm-personal","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Модель не использует персональные адреса детей.md","x":-2880,"y":2060,"width":500,"height":300,"color":"5"},
+		{"id":"norm-schedule","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Санитарные правила задают время занятий, не время пути.md","x":-3420,"y":2060,"width":500,"height":300,"color":"5"},
+		{"id":"norm-data-license","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Лицензия OSM и права на каталог проверяются отдельно.md","x":-2340,"y":2060,"width":500,"height":300,"color":"5"},
+		{"id":"norm-spb-access","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/30 минут НГП — доступность организации, не программы.md","x":-3420,"y":1600,"width":500,"height":320,"color":"5"},
+		{"id":"norm-program","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Возраст и группа определяются условиями программы.md","x":-2800,"y":1195,"width":500,"height":310,"color":"5"},
+		{"id":"sources-impact","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Навигация по заметкам.md","x":-2090,"y":1700,"width":430,"height":300},
+		{"id":"history-context","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Как сложилась проблема сопровождения.md","x":-1660,"y":-1000,"width":500,"height":300,"color":"2"},
+		{"id":"history-independent-mobility","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Самостоятельная мобильность детей сокращалась.md","x":-1000,"y":-1360,"width":500,"height":300,"color":"2"},
+		{"id":"history-russia-gap","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Российская историческая динамика ещё не установлена.md","x":-1680,"y":-1360,"width":500,"height":300,"color":"2"},
+		{"id":"history-car-logistics","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Автомобиль стал средством семейной логистики.md","x":-2200,"y":-1000,"width":500,"height":300,"color":"2"},
+		{"id":"factor-sources","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Исходные заметки.md","x":820,"y":708,"width":450,"height":260},
+		{"id":"alternatives","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Возможные альтернативы автомобилю.md","x":1910,"y":-1067,"width":440,"height":230,"color":"3"},
+		{"id":"limits","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Границы утверждений.md","x":2420,"y":-1067,"width":440,"height":300},
+		{"id":"location","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Размещение и расстояние.md","x":1910,"y":-717,"width":440,"height":180,"color":"3"},
+		{"id":"conditions","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Условия альтернативной поездки.md","x":1910,"y":-412,"width":440,"height":230,"color":"3"},
+		{"id":"scope","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Что исследуем сейчас.md","x":2440,"y":-382,"width":440,"height":270,"color":"4"},
+		{"id":"method-boundary","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Граница исследования.md","x":2420,"y":-2,"width":480,"height":240,"color":"4"},
+		{"id":"factor-questions","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Вопросы для проверки.md","x":790,"y":283,"width":450,"height":300},
+		{"id":"escort-decision","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Решение о сопровождении.md","x":820,"y":18,"width":450,"height":180,"color":"3"},
+		{"id":"mode-decision","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Выбор способа поездки.md","x":1320,"y":18,"width":450,"height":225,"color":"3"},
+		{"id":"factor-limits","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Что мы пока не знаем о Петербурге.md","x":1450,"y":383,"width":450,"height":250},
+		{"id":"factors-hub","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Факторы сопровождения и выбора автомобиля.md","x":250,"y":-607,"width":510,"height":175,"color":"3"},
+		{"id":"age-factor","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Возраст и самостоятельная мобильность.md","x":820,"y":-1107,"width":450,"height":300,"color":"3"},
+		{"id":"family-factor","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Ресурсы семьи и работа.md","x":820,"y":-732,"width":450,"height":310,"color":"3"},
+		{"id":"schedule-factor","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Расписание и цепочки дел.md","x":1320,"y":-1107,"width":450,"height":325,"color":"3"},
+		{"id":"activity-factor","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Тип и организация занятия.md","x":1320,"y":-707,"width":450,"height":280,"color":"3"},
+		{"id":"parent-factor","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Родительские установки.md","x":820,"y":-347,"width":450,"height":260,"color":"3"},
+		{"id":"equipment-factor","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Инвентарь и альтернативы поездки.md","x":1320,"y":-347,"width":450,"height":260,"color":"3"},
+		{"id":"macro-education","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Образовательное управление задаёт программы и финансирование.md","x":-570,"y":-125,"width":500,"height":300,"color":"3"},
+		{"id":"macro-processes","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Городские процессы создают условия сопровождения.md","x":160,"y":-125,"width":500,"height":300,"color":"3"},
+		{"id":"macro-planning","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Территориальное планирование задаёт сеть объектов.md","x":-570,"y":283,"width":500,"height":315,"color":"3"},
+		{"id":"macro-capital","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Капитальные решения связывают застройку и социальные объекты.md","x":-495,"y":688,"width":500,"height":300,"color":"3"},
+		{"id":"macro-transport","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Транспортная политика задаёт связность, но не программу.md","x":250,"y":698,"width":500,"height":300,"color":"3"},
+		{"id":"digital-time-chains","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Моделирование пространственно-временных цепочек.md","x":-1240,"y":1680,"width":500,"height":380,"color":"4"},
+		{"id":"digital-observed-trips","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Цифровая обработка реальных поездок семей.md","x":-650,"y":2080,"width":500,"height":380,"color":"4"},
+		{"id":"digital-location-scenario","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Контрфактический сценарий ближайшей площадки.md","x":20,"y":1780,"width":500,"height":280,"color":"4"},
+		{"id":"digital-rich-model","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Модель спроса, вместимости и видов транспорта.md","x":20,"y":1400,"width":500,"height":300,"color":"4"},
+		{"id":"macro-coordination","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Генплан координирует отраслевые данные.md","x":160,"y":283,"width":500,"height":300,"color":"3"},
+		{"id":"spb-escort-gap","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Масштаб сопровождения в Петербурге не измерен.md","x":-1680,"y":-1760,"width":500,"height":300,"color":"2"},
+		{"id":"digital-gis","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Сетевой GIS-анализ доступности площадок.md","x":-1230,"y":2140,"width":500,"height":420,"color":"4"},
+		{"id":"history-organised-leisure","type":"file","file":"second_brain_for_nir/vault/02 Литература/Карта проблемы — узлы/Организованный досуг вышел за пределы района.md","x":-800,"y":-940,"width":500,"height":300,"color":"2"}
+	],
+	"edges":[
+		{"id":"e2","fromNode":"lclaim","fromSide":"bottom","toNode":"norway","toSide":"top","label":"мотивирует"},
+		{"id":"e3","fromNode":"norway","fromSide":"right","toNode":"problem","toSide":"left","label":"подтверждает в кейсе"},
+		{"id":"e4","fromNode":"finland","fromSide":"top","toNode":"norway","toSide":"bottom","label":"подтверждает в кейсе"},
+		{"id":"e5","fromNode":"japan","fromSide":"top","toNode":"finland","toSide":"bottom","label":"ограничивает обобщение"},
+		{"id":"e7","fromNode":"fclaim","fromSide":"bottom","toNode":"problem","toSide":"top","label":"объясняет контекст"},
+		{"id":"e8","fromNode":"work","fromSide":"top","toNode":"fclaim","toSide":"bottom","label":"показывает нагрузку"},
+		{"id":"e10","fromNode":"bclaim","fromSide":"top","toNode":"work","toSide":"bottom","label":"даёт понятие"},
+		{"id":"e11","fromNode":"problem","fromSide":"right","toNode":"factors-hub","toSide":"left","label":"ищем альтернативы"},
+		{"id":"e12","fromNode":"alternatives","fromSide":"bottom","toNode":"location","toSide":"top","label":"задаёт сценарии"},
+		{"id":"e13","fromNode":"location","fromSide":"bottom","toNode":"conditions","toSide":"top","label":"проверяем пространственно"},
+		{"id":"e14","fromNode":"conditions","fromSide":"right","toNode":"scope","toSide":"left","label":"проверяем при данных"},
+		{"id":"e15","fromNode":"limits","fromSide":"bottom","toNode":"scope","toSide":"top","label":"не доказывает"},
+		{"id":"e16","fromNode":"scope","fromSide":"bottom","toNode":"method-boundary","toSide":"top","label":"задаёт границу"},
+		{"id":"impact-e1","fromNode":"problem","fromSide":"bottom","toNode":"why-heading","toSide":"top","label":"зачем изучать"},
+		{"id":"impact-e2","fromNode":"origin","fromSide":"bottom","toNode":"time","toSide":"top","label":"исходный интерес"},
+		{"id":"impact-e3","fromNode":"why-heading","fromSide":"left","toNode":"time","toSide":"right","label":"возможное последствие"},
+		{"id":"impact-e4","fromNode":"why-heading","fromSide":"bottom","toNode":"work-impact","toSide":"top","label":"возможное последствие"},
+		{"id":"impact-e5","fromNode":"why-heading","fromSide":"right","toNode":"access-impact","toSide":"left","label":"возможное последствие"},
+		{"id":"impact-e6","fromNode":"why-heading","fromSide":"right","toNode":"traffic-impact","toSide":"left","label":"возможное последствие"},
+		{"id":"impact-e7","fromNode":"personal-waygood","fromSide":"right","toNode":"policy-question","toSide":"left","label":"градостроительный вопрос"},
+		{"id":"impact-e8","fromNode":"policy-question","fromSide":"top","toNode":"work-impact","toSide":"bottom","label":"политика и противоречия"},
+		{"id":"impact-e9","fromNode":"time","fromSide":"right","toNode":"next-question","toSide":"left","label":"временной ресурс"},
+		{"id":"impact-e10","fromNode":"work-impact","fromSide":"right","toNode":"next-question","toSide":"left","label":"конфликт расписаний"},
+		{"id":"impact-e11","fromNode":"access-impact","fromSide":"bottom","toNode":"next-question","toSide":"top","label":"неравенство возможностей?"},
+		{"id":"impact-e12","fromNode":"time","fromSide":"right","toNode":"work-impact","toSide":"left","label":"не измеряем"},
+		{"id":"impact-e13","fromNode":"traffic-impact","fromSide":"left","toNode":"access-impact","toSide":"right","label":"не измеряем"},
+		{"id":"impact-e14","fromNode":"method-boundary","fromSide":"top","toNode":"scope","toSide":"bottom","label":"согласуется с рамкой"},
+		{"id":"impact-e15","fromNode":"sources-impact","fromSide":"top","toNode":"personal-waygood","toSide":"bottom","label":"источники"},
+		{"id":"factors-e1","fromNode":"problem","fromSide":"right","toNode":"factors-hub","toSide":"left","label":"что определяет поездку?"},
+		{"id":"factors-e2","fromNode":"spatial-factor","fromSide":"right","toNode":"factors-hub","toSide":"left","label":"пространство"},
+		{"id":"factors-e3","fromNode":"street-factor","fromSide":"top","toNode":"spatial-factor","toSide":"bottom","label":"свойства среды"},
+		{"id":"factors-e4","fromNode":"transport-factor","fromSide":"bottom","toNode":"safety-factor","toSide":"top","label":"условия пути"},
+		{"id":"factors-e5","fromNode":"factors-hub","fromSide":"bottom","toNode":"escort-decision","toSide":"top","label":"условия сопровождения"},
+		{"id":"factors-e6","fromNode":"factors-hub","fromSide":"right","toNode":"mode-decision","toSide":"left","label":"условия выбора транспорта"},
+		{"id":"factors-e7","fromNode":"age-factor","fromSide":"bottom","toNode":"escort-decision","toSide":"top","label":"возраст / цель"},
+		{"id":"factors-e8","fromNode":"family-factor","fromSide":"bottom","toNode":"escort-decision","toSide":"top","label":"семейные ресурсы"},
+		{"id":"factors-e9","fromNode":"parent-factor","fromSide":"bottom","toNode":"escort-decision","toSide":"top","label":"установки"},
+		{"id":"factors-e10","fromNode":"schedule-factor","fromSide":"bottom","toNode":"mode-decision","toSide":"top","label":"цепочки дел"},
+		{"id":"factors-e11","fromNode":"activity-factor","fromSide":"top","toNode":"schedule-factor","toSide":"bottom","label":"тип / расписание"},
+		{"id":"factors-e12","fromNode":"equipment-factor","fromSide":"bottom","toNode":"mode-decision","toSide":"top","label":"инвентарь"},
+		{"id":"factors-e13","fromNode":"escort-decision","fromSide":"right","toNode":"mode-decision","toSide":"left","label":"связанные решения"},
+		{"id":"factors-e14","fromNode":"factor-questions","fromSide":"right","toNode":"factor-limits","toSide":"left","label":"требует проверки"},
+		{"id":"factors-e15","fromNode":"factor-sources","fromSide":"top","toNode":"factor-questions","toSide":"bottom","label":"основание вопросов"},
+		{"id":"digital-e1","fromNode":"next-question","fromSide":"right","toNode":"digital-methods","toSide":"left","label":"как исследовали?"},
+		{"id":"digital-e2","fromNode":"digital-observed-trips","fromSide":"top","toNode":"digital-methods","toSide":"bottom","label":"наблюдает поведение"},
+		{"id":"digital-e3","fromNode":"digital-gis","fromSide":"top","toNode":"digital-methods","toSide":"bottom","label":"считает условия пути"},
+		{"id":"digital-e4","fromNode":"digital-location-scenario","fromSide":"left","toNode":"digital-methods","toSide":"right","label":"проверяет размещение"},
+		{"id":"digital-e5","fromNode":"digital-time-chains","fromSide":"right","toNode":"digital-methods","toSide":"left","label":"собирает цепочки"},
+		{"id":"digital-e6","fromNode":"digital-rich-model","fromSide":"left","toNode":"digital-methods","toSide":"right","label":"учитывает спрос"},
+		{"id":"norm-e1","fromNode":"next-question","fromSide":"left","toNode":"normative-context","toSide":"right","label":"что регулируют?"},
+		{"id":"norm-e2","fromNode":"norm-program","fromSide":"bottom","toNode":"normative-context","toSide":"top","label":"задаёт условия участия"},
+		{"id":"norm-e3","fromNode":"norm-spb-access","fromSide":"right","toNode":"normative-context","toSide":"left","label":"задаёт ориентир сети"},
+		{"id":"norm-e4","fromNode":"norm-schedule","fromSide":"top","toNode":"normative-context","toSide":"bottom","label":"задаёт режим"},
+		{"id":"norm-e5","fromNode":"norm-personal","fromSide":"top","toNode":"normative-context","toSide":"bottom","label":"ограничивает данные"},
+		{"id":"norm-e6","fromNode":"norm-data-license","fromSide":"left","toNode":"normative-context","toSide":"bottom","label":"задаёт выпуск"},
+		{"id":"history-e1","fromNode":"problem","fromSide":"left","toNode":"history-context","toSide":"right","label":"как сложилась?"},
+		{"id":"history-e3","fromNode":"history-organised-leisure","fromSide":"left","toNode":"history-context","toSide":"right","label":"увеличивает потребность в поездке"},
+		{"id":"34b827c5f14811d5","fromNode":"history-context","fromSide":"top","toNode":"history-russia-gap","toSide":"bottom"},
+		{"id":"a85a1e83f259bc8f","fromNode":"history-context","fromSide":"right","toNode":"history-independent-mobility","toSide":"left"},
+		{"id":"14d7cd7d556080db","fromNode":"history-context","fromSide":"left","toNode":"history-car-logistics","toSide":"right"},
+		{"id":"macro-e1","fromNode":"macro-processes","fromSide":"right","toNode":"factors-hub","toSide":"left","label":"задаёт условия"},
+		{"id":"macro-e2","fromNode":"macro-planning","fromSide":"right","toNode":"macro-processes","toSide":"left","label":"размещает сеть"},
+		{"id":"macro-e3","fromNode":"macro-education","fromSide":"right","toNode":"macro-processes","toSide":"left","label":"задаёт программу"},
+		{"id":"macro-e4","fromNode":"macro-capital","fromSide":"right","toNode":"macro-processes","toSide":"bottom","label":"вводит объекты"},
+		{"id":"macro-e5","fromNode":"macro-transport","fromSide":"top","toNode":"macro-processes","toSide":"bottom","label":"задаёт связность"},
+		{"id":"macro-e6","fromNode":"macro-coordination","fromSide":"top","toNode":"macro-processes","toSide":"bottom","label":"согласует контуры"},
+		{"id":"history-e6","fromNode":"spb-escort-gap","fromSide":"bottom","toNode":"history-russia-gap","toSide":"top","label":"не позволяет восстановить"}
+	]
 }
