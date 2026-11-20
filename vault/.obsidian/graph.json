@@ -1,12 +1,22 @@
 {
   "collapse-filter": true,
-  "search": "",
+  "search": "-path:\"08 Архив\"",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {"query": "path:\"00 Начать здесь\"", "color": {"a": 1, "rgb": 14767961}},
+    {"query": "path:\"01 Основа исследования\"", "color": {"a": 1, "rgb": 5142951}},
+    {"query": "path:\"02 Литература\"", "color": {"a": 1, "rgb": 7780786}},
+    {"query": "path:\"03 Методика\"", "color": {"a": 1, "rgb": 15896107}},
+    {"query": "path:\"04 Эксперименты\"", "color": {"a": 1, "rgb": 5873999}},
+    {"query": "path:\"05 Текст работы\"", "color": {"a": 1, "rgb": 11565217}},
+    {"query": "path:\"06 План и журнал\"", "color": {"a": 1, "rgb": 15583048}},
+    {"query": "path:\"07 Требования и защита\"", "color": {"a": 1, "rgb": 16751527}},
+    {"query": "path:\"08 Архив\"", "color": {"a": 1, "rgb": 12234924}}
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -17,6 +27,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.7132754626224418,
-  "close": false
+  "scale": 0.3661709680022634,
+  "close": true
 }
